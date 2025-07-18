@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<!--home-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Swahili Sol</h1>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                 <p>Software Developer</p>
+                 <h1>Hi, I'm <span>kenson</span><br>Muriithi </h1>
+            </div>
+        </div>
+    </div>
+<!--about-->
+    <div id="about">
+        <div class="container" >
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/freepik__upload__66343.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I'm Kenson Muriithi, a full-stack developer specializing in modern web development. 
+                        I build responsive frontends with React/Next.js and robust backends using Node.js and Python. 
+                        I focus on clean, scalable applications great UX. 
+                        Let's connect and build something great!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li> <span>UI/UX</span> <br>desing web interface</li>
+                            <li> <span>Web Development</span> <br>creating websites</li>
+                            <li> <span>App Development</span> <br>Building apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li> <span>Freelancing</span> <br>2 Years of Freelance web development</li>
+                            <li> <span></span> <br></li>
+                            <li> <span></span> <br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li> <span>Highschool</span> <br>Nyandarua Highschool</li>
+                            <li> <span>college</span> <br>Institute of software Development</li>
+                            <li> <span>University</span> <br>Catholic University of Eastern Africa</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------services----------- -->
+
+    <div id="services">
+
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Dev</h3>
+                    <p>I architect high-performance web apps with React, Next.js, Node.js & Python. From lightning-fast UIs to bulletproof backends, I blend clean code, scalable design, and intuitive UX. Let’s build something innovative, efficient, and future-ready!</p>
+                        <a href="https://www.w3schools.com/#gsc.tab=0">Learn more</a>
+                </div>
+
+                <div>
+                    <i class='bx bx-crop'></i>
+                    <h3>UI/UX Desing</h3>
+                    <p>I craft intuitive, visually stunning UI/UX designs for users.
+                         From wireframes to pixel-perfect prototypes, 
+                         I blend user research, clean aesthetics
+                          and seamless interactions—ensuring your product is both beautiful and functional.</p>
+                        <a href="https://www.w3schools.com/#gsc.tab=0">Learn more</a>
+                </div>
+
+                <div>
+                    <i class='bx bx-code-curly'></i>
+                    <h3>App Dev</h3>
+                    <p>I build high-performance mobile apps that solve real problems. 
+                        Using React Native, Flutter or native frameworks I deliver fast, scalable solutions from concept to deployment. 
+                        Let’s create an app that stands out in functionality and design!</p>
+                        <a href="https://www.w3schools.com/#gsc.tab=0">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+
+            <h1 class="subtitle">My Portfolio</h1>
+
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/pexels-karolina-grabowska-5717715.jpg" alt="">
+                    <div class="layer">
+                       <h3>Project 1</h3>
+                       <p>
+                        E-commerce: Websites designed for online selling, featuring product listings, shopping carts, and payment gateways. </p>
+                       </p>
+                       <a href="https://www.w3schools.com/#gsc.tab=0"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/pexels-joshsorenson-1714208.jpg" alt="">
+                    <div class="layer">
+                        <h3>Project 2</h3>
+                        <p> Portfolio: Websites showcasing a person's or company's work, often used by designers, artists, or professionals to display their skills. </p>
+                        <a href="https://www.w3schools.com/#gsc.tab=0"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/pexels-fotios-photos-3716515.jpg" alt="">
+                    <div class="layer">
+                        <h3>Project 3</h3>
+                        <p>Social Media: Websites that facilitate online interactions, community building, and sharing of content among users. </p>
+                        <a href="https://www.w3schools.com/#gsc.tab=0"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="https://github.com/Kenson503" class="btn">see more</a>
+        </div>
+    </div>
+<!-- ----------contact----------- -->
+    <div id="contact">
+        <div class="container">     
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <P><i class='bx bxs-send'></i>contact@example.com</P>
+                    <p> <i class='bx bxs-phone'></i> 0704071814</p>
+                    <p> <i class='bx bx-current-location'></i> Nairobi,Kenya</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/kenson_503_muriithi?igsh=MXdnczdncHVleW14OA=="><i class='bx bxl-instagram-alt' undefined ></i></a>
+                        <a href="https://x.com/swahili_sol?t=SoIZRIoeWnDEoOT-2GUgUw&s=09"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="https://github.com/Kenson503"><i class='bx bxl-github' ></i></a>
+                    </div>
+                    <a href="images/Kenson muriithi.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form action="server.php" method="post">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                        <input type="text" name="email" id="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6"  id="message" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright@2025.</p>
+    </div>
+<script>
+    var tablinks = document.getElementsByClassName('tab-links')
+    var tabcontents = document.getElementsByClassName('tab-contents')
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+        }
+        
+        
+        for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");}
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
